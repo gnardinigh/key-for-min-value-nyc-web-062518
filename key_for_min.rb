@@ -37,11 +37,5 @@ def find_lowest_index(x)
   return lowest_index
 end 
 
+def find_lowest_key(array)
 
-x = make_value_array(a)
-
-puts x
-
-y = find_lowest_index(x)
-
-puts y
