@@ -32,6 +32,7 @@ while counter<x.length
   if lowest_value>x[counter]
     lowest_value=x[counter]
     lowest_index=counter
+  end
 end
 
 
