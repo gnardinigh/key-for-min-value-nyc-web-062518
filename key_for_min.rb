@@ -44,3 +44,4 @@ end
 x = make_value_array(a)
 y = make_key_array(a)
 
+z = find_lowest_index(x)
