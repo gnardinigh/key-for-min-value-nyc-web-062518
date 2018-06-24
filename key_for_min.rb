@@ -49,11 +49,3 @@ def key_for_min_value(your_hash)
   return d
 end
 
-x = make_value_array(a)
-y = make_key_array(a)
-
-z = find_lowest_index(x)
-
-omega = get_lowest_key(y,z)
-
-puts omega
