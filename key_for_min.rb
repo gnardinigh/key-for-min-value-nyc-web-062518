@@ -37,5 +37,7 @@ def find_lowest_index(x)
   return lowest_index
 end 
 
-def find_lowest_key(array)
+def find_lowest_key(array,index)
+  
+end
 
