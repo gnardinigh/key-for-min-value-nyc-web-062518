@@ -45,6 +45,7 @@ def key_for_min_value(your_hash)
   a = make_value_array(your_hash)
   b = make_key_array(your_hash)
   c = find_lowest_value_index(a)
+  d = get_lowest_key(b,c)
 end
 
 x = make_value_array(a)
