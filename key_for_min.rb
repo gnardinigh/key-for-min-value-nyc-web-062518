@@ -36,7 +36,7 @@ while counter<x.length
   counter+=1
 end
 
-
+puts lowest_index
 
 
 
