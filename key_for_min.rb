@@ -42,3 +42,5 @@ end
 x = make_value_array(a)
 
 puts x
+
+y = find_lowest_index(x)
