@@ -29,7 +29,8 @@ lowest_value = x[0]
 lowest_index = 0
 counter=0
 while counter<x.length
-  if lowest_value>
+  if lowest_value>x[counter]
+    lowest_value=x[counter]
 end
 
 
