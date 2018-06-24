@@ -44,5 +44,3 @@ end
 x = make_value_array(a)
 y = make_key_array(a)
 
-puts x
-puts y
