@@ -1,7 +1,7 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-a = {:john => 4, :jack =>5, :jim =>6}
+a = {:john => 4, :jack =>5, :jim =>6, :jimm => 3}
 
 def make_value_array(your_hash)
   values = []
