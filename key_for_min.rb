@@ -23,23 +23,9 @@ def make_key_array(your_hash)
   return keys
 end
 
-def sort_values(array)
-  lowest_value = array[0]
-  lowest_value_index=0
-  counter=0
-    while counter<array.size
-      if lowest_value > array[counter]
-        lowest_value = array[counter]
-        lowest_value_index=counter
-        counter+=1
-      end
-  end
-  return lowest_value_index
-end
+x = make_value_array(a)
 
-z = sort_values(x)
 
-puts z
 
 
 
