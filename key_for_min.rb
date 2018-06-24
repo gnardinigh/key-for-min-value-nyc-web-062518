@@ -25,7 +25,7 @@ end
 
 x = make_value_array(a)
 
-def find_smallest_index
+def find_lowest_index
 lowest_value = x[0]
 lowest_index = 0
 counter=0
