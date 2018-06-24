@@ -25,17 +25,17 @@ end
 
 
 def find_lowest_index(x)
-lowest_value = x[0]
-lowest_index = 0
-counter=0
-while counter<x.length
-  if lowest_value>x[counter]
-    lowest_value=x[counter]
-    lowest_index=counter
+  lowest_value = x[0]
+  lowest_index = 0
+  counter=0
+  while counter<x.length
+    if lowest_value>x[counter]
+      lowest_value=x[counter]
+      lowest_index=counter
+    end
+    counter+=1
   end
-  counter+=1
-end
-return lowest_index
+  return lowest_index
 end 
 
 
