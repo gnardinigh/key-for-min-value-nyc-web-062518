@@ -41,5 +41,5 @@ def get_lowest_key(key_array,index)
   return key_array[index]
 end
 
-make_value_array(a)
-make_key_array(a)
+x = make_value_array(a)
+y = make_key_array(a)
