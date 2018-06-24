@@ -33,7 +33,10 @@ while counter<x.length
     lowest_value=x[counter]
     lowest_index=counter
   end
+  counter+=1
 end
+
+
 
 
 
