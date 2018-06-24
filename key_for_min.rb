@@ -25,6 +25,7 @@ end
 
 x = make_value_array(a)
 
+
 lowest_value = x[0]
 lowest_index = 0
 counter=0
@@ -35,8 +36,7 @@ while counter<x.length
   end
   counter+=1
 end
-
-puts lowest_index
+return lowest_index
 
 
 
