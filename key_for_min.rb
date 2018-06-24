@@ -39,4 +39,4 @@ def find_lowest_index(x)
 end 
 
 
-
+x = make_value_array(a)
