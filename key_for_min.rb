@@ -25,7 +25,7 @@ end
 
 x = make_value_array(a)
 
-
+lowest_value = x[0]
 
 
 
