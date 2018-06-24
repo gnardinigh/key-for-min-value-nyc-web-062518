@@ -40,3 +40,5 @@ end
 
 
 x = make_value_array(a)
+
+puts x
