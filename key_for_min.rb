@@ -27,9 +27,9 @@ def find_lowest_index(value_array)
   lowest_value = value_array[0]
   lowest_index = 0
   counter=0
-  while counter<x.length
-    if lowest_value>x[counter]
-      lowest_value=x[counter]
+  while counter<value_array.length
+    if lowest_value>value_array[counter]
+      lowest_value=value_array[counter]
       lowest_index=counter
     end
     counter+=1
