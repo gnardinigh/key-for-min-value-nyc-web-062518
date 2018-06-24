@@ -41,8 +41,8 @@ def get_lowest_key(key_array,index)
   return key_array[index]
 end
 
-def key_for_min_value(ya_hash)
-  
+def key_for_min_value(your_hash)
+  a = make_value_array(ya_hash)
 end
 
 x = make_value_array(a)
