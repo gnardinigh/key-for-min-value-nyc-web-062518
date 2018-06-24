@@ -48,3 +48,5 @@ z = find_lowest_index(x)
 puts z
 
 omega = get_lowest_key(z)
+
+puts omega
