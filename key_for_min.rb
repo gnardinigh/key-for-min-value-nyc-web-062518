@@ -23,8 +23,8 @@ def make_key_array(your_hash)
   return keys
 end
 
-def find_lowest_index(x)
-  lowest_value = x[0]
+def find_lowest_index(value_array)
+  lowest_value = value_array[0]
   lowest_index = 0
   counter=0
   while counter<x.length
