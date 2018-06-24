@@ -46,3 +46,5 @@ y = make_key_array(a)
 
 z = find_lowest_index(x)
 puts z
+
+omega = get_lowest_key(z)
